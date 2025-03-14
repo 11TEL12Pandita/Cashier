@@ -1,6 +1,5 @@
 # Simulasi Kasir dengan Goroutine dan Mutex
 
-## Deskripsi
 Program ini mensimulasikan sistem kasir di sebuah toko menggunakan bahasa pemrograman Go. Dalam simulasi ini:
 - Terdapat daftar item yang dijual dengan harga tertentu.
 - Pelanggan akan dibuat secara acak dengan nama yang dihasilkan menggunakan pustaka `gofakeit`.
@@ -16,7 +15,7 @@ Program ini mensimulasikan sistem kasir di sebuah toko menggunakan bahasa pemrog
 - Menggunakan `math/rand` untuk memilih item pelanggan secara acak.
 
 ## Instalasi
-Pastikan Anda telah menginstal Go di sistem Anda. Jika belum, unduh dan instal dari [golang.org](https://golang.org/dl/).
+Pastikan telah menginstal Go di sistem. Jika belum, unduh dan instal dari [golang.org](https://golang.org/dl/).
 
 Kemudian, unduh dependensi berikut:
 ```sh
